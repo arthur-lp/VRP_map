@@ -132,7 +132,7 @@ def print_solution(data, routing, manager, assignment):  # pylint:disable=too-ma
             print(plan_output)
         total_distance += distance
     map.save(r'C:/LOCAIS/rout.html')
-    print('Total Distance of all routes: {} minutos'.format(total_distance))
+    print('Total time of all routes: {} minutos'.format(total_distance))
 
 
 ########
